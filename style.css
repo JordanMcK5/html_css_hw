@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > footer{
+    background-color: dodgerblue;
+}
+
+body > footer > p{
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline;
+    /* color: white]; */
+}
+
+nav > ul > li > a {
+    color: white;
+    width: auto;
+    float: right;
+    padding: 35px;
+    background-color: dodgerblue;
+
+}
+#logo{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px;
+    background-color: dodgerblue;
+}
