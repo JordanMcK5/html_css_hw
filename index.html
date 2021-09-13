@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav id="nav1">
+            <ul id="ul1">
                 <li>
                     <a href="/home">Home</a>
                 </li>
@@ -25,72 +25,77 @@
         <h1 id= "logo">CodeClan News</h1>
     </header>
    <main>
-           <header>
-               <h1>Login</h1>
-               <form action="/action_page.php">
-                <label for="fname">Email:</label><br>
-                <input type="text" id="fname" name="fname" value=""><br>
-                <label for="lname">Password:</label><br>
-                <input type="text" id="lname" name="lname" value=""><br><br>
+        <h2 id="login">Login</h2>
+            <form action="/login">
+                <label for="email">Email:</label><br>
+                <input type="text" id="fname" name="email" value=""><br>
+                <label for="password">Password:</label><br>
+                <input type="text" id="password" name="password" value=""><br><br>
                 <input type="submit" value="Submit">
-              </form> 
-              <h2>Catagories</h2>
-              <nav>
-                <ul>
-                    <li>
-                        <a href="/latest">Latest</a>
-                    </li>
-                    <li>
-                        <a href="/local">Local</a>
-                    </li>
-                    <li>
-                        <a href="/politics">Politics</a>
-                    </li>
-                    <li>
-                        <a href="/sports"> Sports</a>
-                    </li>
+            </form> 
+    <h2 id="categories">Categories</h2>
+        <nav id="nav2">
+            <ul id="list2">
+                <li>
+                    <a href="/latest">Latest</a>
+                </li>
+                <li>
+                    <a href="/local">Local</a>
+                </li>
+                <li>
+                    <a href="/politics">Politics</a>
+                </li>
+                <li>
+                <a href="/sports"> Sports</a>
+                </li>
                 </ul>
-               <h1>Latest</h1>
-               <h2>Breaking News</h2>
-               <img src="images/placeholder-image.jpeg" alt="placeholder blog image">
-               <h1>Story Headline</h1>
-               <h2>Short blurb about the breaking news</h2>
-               <img src="images/placeholder-image.jpeg" alt="placeholder blog image">
-               <h1>Story Headline</h1>
-               <h2>Short blurb about the breaking news</h2>
-               <img src="images/placeholder-image.jpeg" alt="placeholder blog image">
-               <h1>Story Headline</h1>
-               <h2>Short blurb about the breaking news</h2>
-           </header>
+        </nav>
+    <h2 id="latest">Latest</h2>
+        <h3 id="breaking-news">Breaking News</h3>
+               <img id="news-image" src="images/placeholder-image.jpeg" alt="placeholder blog image">
+               <h2 id="headlines">Story Headline</h2>
+               <h3 id="headlinesub">Short blurb about the breaking news</h3>
+               <img id="news-image" src="images/placeholder-image.jpeg" alt="placeholder blog image">
+               <h2 id="headlines">Story Headline</h2>
+               <h3 id="headlinesub">Short blurb about the breaking news</h3>
+               <img id="news-image" src="images/placeholder-image.jpeg" alt="placeholder blog image">
+               <h2 id="headlines">Story Headline</h2>
+               <h3 id="headlinesub">Short blurb about the breaking news</h3>
         <article>
+            <header>
            <h1>Main Article Headline</h1>
            <h3>Author Name</h3>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-           </p>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-           </p>
-           <p>
+            </header>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
         </article>
-        <h1>Comments</h1>
+    </main>
+    <header>
+    <h1>Comments</h1>
+    </header>
         <form id="comments" action="/comments">
             <input type="text" id="fname" name="fname" value=""><br>
             <input type="submit" value="Submit">
           </form> 
-   </main>
-   <img src="images/placeholder-avatar.png" alt="Placeholder person">
-   <h3>username</h3>
-   <h4>Posted 12/09/2021</h4>
-   <p>Comment from user</p>
-   <img src="images/placeholder-avatar.png" alt="Placeholder person">
-   <h3>username</h3>
-   <h4>Posted 12/09/2021</h4>
-   <p>Comment from user</p>
-   <img src="images/placeholder-avatar.png" alt="Placeholder person">
-   <h3>username</h3>
-   <h4>Posted 12/09/2021</h4>
-   <p>Comment from user</p>
-   <footer>© CodeClan News 2020</footer>
-    </body>
+        <img id="comments-image" src="images/placeholder-avatar.png" alt="Placeholder person">
+        <h3  id="comments-text">username</h3>
+        <h4 id="comments-text">Posted 12/09/2021</h4>
+        <p id="comments-text">Comment from user</p>
+        <img id="comments-image" src="images/placeholder-avatar.png" alt="Placeholder person">
+        <h3 id="comments-text">username</h3>
+        <h4 id="comments-text">Posted 12/09/2021</h4>
+        <p id="comments-text">Comment from user</p>
+        <img id="comments-image" src="images/placeholder-avatar.png" alt="Placeholder person">
+        <h3 id="comments-text">username</h3>
+        <h4 id="comments-text">Posted 12/09/2021</h4>
+        <p id="comments-text">Comment from user</p>
+</body>
+<footer>
+    <p>  © CodeClan News 2020 </p>
+</footer>
 </html>

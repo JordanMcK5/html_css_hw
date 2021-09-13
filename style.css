@@ -1,6 +1,7 @@
 body{
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    margin: 0
+;
+    padding: auto
 }
 
 body > footer{
@@ -18,23 +19,84 @@ body > header {
     color: white;
 }
 
-nav > ul > li {
-    list-style: none;
-    display: inline;
-    /* color: white]; */
-}
-
-nav > ul > li > a {
-    color: white;
-    width: auto;
-    float: right;
-    padding: 35px;
-    background-color: dodgerblue;
-
-}
 #logo{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     padding: 35px;
     background-color: dodgerblue;
+}
+
+article {
+    margin: auto;
+    width: 70%;
+  }
+
+  #nav1{
+      float: right;
+      width: auto;
+      display: inline;
+
+  }
+#ul1{
+      list-style: none;
+
+
+  }
+
+#ul1 > li{
+    display: inline;
+    padding: 16px;
+
+    
+  }
+
+#nav1 > ul > li > a{
+      color: white;
+
+  }
+
+#latest{
+    text-align: left;
+    margin: -20%;
+    margin-left: 300px;
+    margin-right: auto  
+    }
+
+#breaking-news{
+    text-align: left;
+    margin: 20%;
+    margin-left: 300px;
+    margin-right: auto  
+    }
+
+#comments-image{
+    display: block;
+    margin-top: -10;
+    margin-left: 200px;
+    margin-right: auto
+}
+
+#comments-info{
+    margin-top: -10;
+    margin-left: 500px;
+}
+        
+#news-image{
+    display: block;
+    margin-left: 300px;
+    margin-right: auto
+}
+
+#headlines{
+    display: block;
+    margin-top: 0;
+    margin-left: 800px;
+    margin-right: auto
+}
+
+#headlinesub{
+    display: block;
+    margin-top: auto;
+    margin-left: 800px;
+    margin-right: auto
 }
